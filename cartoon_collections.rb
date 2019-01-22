@@ -6,9 +6,8 @@ def summon_captain_planet(call_array)
   call_array.collect {|catch| "#{catch.capitalize}!"}
 end
 
-
-def long_planeteer_calls
-  
+def long_planeteer_calls(calls_array)
+  calls_array.any?
 end
 
 def find_the_cheese
