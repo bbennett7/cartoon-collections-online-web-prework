@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(call_array)
   cap_array = []
-  cap_array << call_array.each {|call| puts "#{call.capitalize}!"}
+  cap_array.push(call_array.each {|call| puts "#{call.capitalize}!"})
   cap_array
 end
 
